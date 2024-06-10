@@ -130,10 +130,7 @@ nav ul li {
     margin: 0.5px; 
 }
 
-.foto-habilidades{
-    width: 30px;
-    height: 30px;
-}
+
 
 .titulo-habilidades {
     width: fit-content; /* Ajusta el ancho del contenedor al contenido */
