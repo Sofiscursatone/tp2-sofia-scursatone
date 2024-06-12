@@ -10,6 +10,12 @@
     padding: 0px;
 }
 
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
 /*------nav-----*/
 
 .sofia-index{
@@ -148,7 +154,7 @@ nav ul li {
     align-items: center; 
     justify-content: flex-end; 
     height: 720px;
-    background-image: url('img/sofi-index.jpg'); 
+    background-image: url('img/portada\ portfolio.png'); 
     background-size: cover; 
     background-position: center; 
     padding-right:50px;
@@ -317,6 +323,9 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: 1200px;
+    background-color: aqua;
 
     
 }
@@ -324,9 +333,11 @@ button{
 .flecha{
     padding-top: 15px;
     padding-bottom: 15px;
+    background-color: blueviolet;
 }
 .texto-galeria{
     display: flex;
+    background-color: #FB7B7B;
     padding-left:30px;
     max-width: 20%;
     margin-right:50px;
