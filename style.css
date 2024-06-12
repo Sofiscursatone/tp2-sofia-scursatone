@@ -317,6 +317,8 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+
+    
 }
 
 .flecha{
@@ -333,40 +335,39 @@ button{
     color: black;
     font-size:20px;
 }
-.body-gris{
-    background-color: #F4F4F4;
-    
-}
 
 
 .flex-footer {
     display: flex;
     justify-content: center; /* Centra los elementos horizontalmente */
-    height: 60px;
-    background-color: #FFD5D5;
+    height: 100px;
+    background-color: #e9aeae;
     position: sticky;
     top:0px;
     flex-direction: row;
     margin: 0;
     padding: 0;
-    
+    width: 100%;
         
     }
     
 .ulfooter{
-    background-color: red;
     list-style: none;
     justify-content: center;
     align-items: center;
     margin: 0px;
-    padding: 0;
 
+    
+
+    
     }
 
 .li-footer{
     display: inline;
     margin: 0;
-    padding: 0;
+    padding-right: 20px;
+    justify-content: center;
+    padding-bottom: 5px;
     
 
 }
