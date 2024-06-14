@@ -110,7 +110,7 @@ nav ul li {
     }
 }
 
-/* -----fuentes- dsps borrar----- */
+/* -----datos de fuentes----- */
 
 .khula-regular {
     font-family: "Khula", sans-serif;
@@ -140,7 +140,7 @@ nav ul li {
     font-weight: 700;
     font-style: normal;
 }
-/* -----fuentes- dsps borrar----- */
+/* -----inicio----- */
 
 .h2-index{
     font-family: "Sue Ellen Francisco", cursive;
@@ -346,7 +346,23 @@ button{
     font-size:20px;
 }
 
+.galería-proyectos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas con el mismo ancho */
+    grid-gap: 10px; /* Espacio entre las imágenes */
+}
 
+.fotos-galería {
+    overflow: hidden; /* Evita que las imágenes se salgan del contenedor */
+}
+
+.fotos-galería img {
+    width: 100%; /* La imagen se ajustará al ancho del contenedor */
+    height: auto; /* Mantener la proporción */
+    padding: 0px;
+}
+
+/* ----------footer---------- */
 .flex-footer {
     display: flex;
     justify-content: center; /* Centra los elementos horizontalmente */
@@ -364,12 +380,7 @@ button{
 .ulfooter{
     list-style: none;
     justify-content: center;
-    align-items: center;
-    margin: 0px;
-
-    
-
-    
+    margin: 0px; 
     }
 
 .li-footer{
@@ -378,38 +389,14 @@ button{
     padding-right: 20px;
     justify-content: center;
     padding-bottom: 5px;
+    padding-top: 20px;
     
 
 }
     
 
-.galería-proyectos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columnas con el mismo ancho */
-    grid-gap: 10px; /* Espacio entre las imágenes */
-}
 
-.fotos-galería {
-    overflow: hidden; /* Evita que las imágenes se salgan del contenedor */
-}
-
-.fotos-galería img {
-    width: 100%; /* La imagen se ajustará al ancho del contenedor */
-    height: auto; /* Mantener la proporción */
-    padding: 0px;
-}
-
-document.addEventListener('DOMContentLoaded', function () {
-    var video = document.getElementById('miVideo');
-    
-    video.addEventListener('click', function () {
-        if (video.paused) {
-            video.play();
-        } else {
-            video.pause();
-        }
-    });
-});
+/* ----------vídeo---------- */
 
 .container-video {
     display: flex;
@@ -450,5 +437,70 @@ video {
     padding: 20px;
 }
 
+/* ----------contactos---------- */
+.caja{
+    display: inline-flex;
+    margin: 40px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border: 4px dotted #e9aeae; 
+    border-radius: 15px;  
+    font-family: "Khula", sans-serif;
+    font-weight: 400;
+}
+textarea{
+width: 250px;
+height: 150px;
+border:2px solid #e9aeae;
+
+}
+.h1-contactos{
+    font-size: 1.7rem;
+    color: #e9aeae;
+    font-family: "Alef", sans-serif;
+    font-weight: 700;
+}
+
+input{
+    padding: 5px;
+    border:2px solid #e9aeae;
+    
+
+}
 
 
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+label{
+    padding-right: 20px;
+    padding-top: 20px;
+}
+div{
+    padding-bottom: 30px;
+}
+.botones {
+    display: flex;
+    flex-direction: row;
+    padding-right: 40px;
+}
+.mensaje {
+    display: flex;
+    flex-direction: row;
+}
+
+.intereses-flex{
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+    
+}
+
+.datos{
+    display:flex;
+    flex-direction:column;
+    width: 500px;
+}
