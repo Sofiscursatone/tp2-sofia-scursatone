@@ -146,7 +146,7 @@ nav ul li {
     font-family: "Sue Ellen Francisco", cursive;
     color: rgb(255, 255, 255);
     font-weight: 300;
-    font-size: 5.3rem;
+    font-size: 4.3rem;
 }
 
 .apertura{
@@ -191,13 +191,10 @@ nav ul li {
 .bajada{
     background-color: #FFD5D5;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: left;
     height: 100%;
     width: 50%;
     flex-direction: column;
-    align-items: center; 
-    text-align:left;
     padding-left: 500px;
     padding-right: 200px;
     padding-top: 100px;
@@ -222,6 +219,7 @@ button{
     border: none;
     font-family: "Alef", sans-serif;
     font-weight: 700;
+    text-align: left;
     
 }
 
@@ -230,6 +228,7 @@ button{
     display: flex;
     justify-content: left; /* Centra horizontalmente */ 
     align-items: center;
+    margin: 0px;
 }
 
 .p-sobremi{
@@ -255,6 +254,7 @@ button{
     background-image: url('img/tramaflores.jpg'); 
     height: 400px;
     width: 100%;
+    margin:0px;
 }
 
 .titulo-habilidades {
@@ -275,7 +275,12 @@ button{
     
     
 }
-
+.h2-programas{
+    font-family: "Khula", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
 
 .programas {
     display: flex;
@@ -286,7 +291,15 @@ button{
     align-items: center;
     padding-top: 70px;
 }
-
+.educación{
+    display: flex;
+    padding-right: 20px; 
+    margin-left: 400px; 
+    margin-right: 400px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
 .flex-item {
     width: 150px;
     height: 170px; 
@@ -294,12 +307,41 @@ button{
     flex-direction: column; 
     align-items: center;
     justify-content: center;
-    background-color: rgb(131, 131, 131);
+    background-color: #dbd9d9;
     border-radius: 5px; 
     padding: 10px; 
     margin: 0.5px; 
 }
+.flex-caja{
+    width: 150px;
+    height: 170px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    background-color: #dbd9d9;
+    border-radius: 5px; 
+    padding: 20px; 
+    margin: 0.5px; 
+}
 
+.h4-educación{
+    font-family: "Khula", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;  
+    color: #000000;
+    line-height:25px;
+}
+
+.h5-educación{
+    font-family: "Khula", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: rgb(172, 95, 95);
+
+}
 .titulo-educación {
     background-color: #FFD5D5; 
     text-align: center;
@@ -448,6 +490,12 @@ video {
     border-radius: 15px;  
     font-family: "Khula", sans-serif;
     font-weight: 400;
+}
+
+.bold{
+    font-family: "Khula", sans-serif;
+    font-weight: 700;
+    font-style: normal; 
 }
 textarea{
 width: 250px;
